@@ -59,7 +59,8 @@ brew install openjdk@11
 ```
 
 Add Java to PATH 
-_This tells your operating system to use this instance of java when you try executing 'java' on your command line._
+> [!NOTE]
+> This tells your operating system to use this instance of java when you try executing 'java' on your command line.
 ```shell
 echo 'export PATH="/usr/local/opt/openjdk@11/bin:$PATH"' >> ~/.zshrc
 ```
