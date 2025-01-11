@@ -10,11 +10,11 @@
 # - If failure: log the error message to /opt/tas/log/transfer_pdfs_to_meow.log.
 
 # Directory and file paths
-SOURCE_DIR="/workspaces/codespaces-blank/automator/scripts/pdf-sync/pdfs"
-TRANS_DIR="/workspaces/codespaces-blank/automator/scripts/pdf-sync"
+SOURCE_DIR="/workspaces/codespaces-blank/pdf-sync/pdfs"
+TRANS_DIR="/workspaces/codespaces-blank/pdf-sync"
 LOG_FILE="$TRANS_DIR/transfer_pdfs_to_meow.log"
 TRANS_FILE="$TRANS_DIR/transmitted_files.txt"
-DESTINATION_DIR="/workspaces/codespaces-blank/automator/scripts/pdf-sync/pdf-destination"
+DESTINATION_DIR="/workspaces/codespaces-blank/pdf-sync/pdf-destination"
 
 # Create necessary directories and files if they don't exist
 mkdir -p "$TRANS_DIR"
